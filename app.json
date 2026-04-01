@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Bricks Driver",
+    "slug": "bricks-driver-app",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bricksride.driver",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "remote-notification"
+        ],
+        "NSLocationWhenInUseUsageDescription": "Bricks Driver needs your location to find nearby ride and delivery requests.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Bricks Driver needs background location to track your progress during a trip even when the screen is off.",
+        "NSLocationAlwaysUsageDescription": "Bricks Driver tracks your location to provide accurate ETAs to customers."
+      }
+    },
+    "android": {
+      "package": "com.bricksride.driver",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "VIBRATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY_HERE"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Bricks Driver to use your location."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
