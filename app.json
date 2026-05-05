@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Bricks Driver",
-    "slug": "bricks-driver-app",
+    "name": "GFAX-driver-app",
+    "slug": "GFAX-driver-app",
     "version": "1.0.0",
     "sdkVersion": "54.0.0",
     "orientation": "portrait",
@@ -11,7 +11,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bricksride.driver",
+      "bundleIdentifier": "com.gfax.driver",
       "infoPlist": {
         "UIBackgroundModes": [
           "location",
@@ -24,7 +24,7 @@
       }
     },
     "android": {
-      "package": "com.bricksride.driver",
+      "package": "com.GFAX.driver",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION",
@@ -42,7 +42,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow Bricks Driver to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow GFAX Driver to use your location."
         }
       ],
       "expo-font"
