@@ -17,7 +17,7 @@ const RegisterScreen = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{padding: 25}}>
-      <Text style={styles.title}>Partner with Bricks</Text>
+      <Text style={styles.title}>Partner with GFAX</Text>
       
       <Text style={styles.sectionTitle}>Select Vehicle Type</Text>
       <View style={styles.vehicleGrid}>

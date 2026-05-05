@@ -7,7 +7,7 @@ const LoginScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <View style={styles.inner}>
         <MaterialCommunityIcons name="steering" size={80} color="#1A237E" style={styles.logo} />
-        <Text style={styles.title}>Bricks Driver</Text>
+        <Text style={styles.title}>GFAX Driver</Text>
         <Text style={styles.subtitle}>Enter your credentials to start earning</Text>
 
         <View style={styles.inputContainer}>

@@ -41,7 +41,7 @@ export const LocationTracker = {
       timeInterval: 5000, // Update every 5 seconds
       distanceInterval: 10, // Or every 10 meters
       foregroundService: {
-        notificationTitle: "Bricks Driver is Online",
+        notificationTitle: "GFAX Driver is Online",
         notificationBody: "Tracking your location for ride requests.",
         notificationColor: "#1A237E",
       },
